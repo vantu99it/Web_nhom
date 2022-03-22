@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.font-courier {
+    font-family: courier new;
+}
+
+#header {
+    position: relative;
+    padding-top: 50%;
+    background: url('background.jpg') top center / cover no-repeat ;
+}
+
+#header .background {
+    position: absolute;
+    bottom: 250px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+#header .heading {
+    font-size: 40px;
+    font-weight: 540;
+    line-height: 120px;
+    text-transform: uppercase;
+    
+}
+
+#header .heading span {
+    font-weight: 900;
+    font-size: 81px;
+}
+
+#header .txt {
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 1.6;
+    margin: 25px 0;
+}
+
+  .csw-btn-button {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 11px 21px;
+    color: #ffffff !important;
+    border-radius: 5px;
+    background: #d5932c;
+    border: 1px solid #ffffff;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+ .csw-btn-button:hover {
+    background: #ff0808;
+  }
+
+  /* Thân */
+
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #efe4e4;
+    padding-top: 80px;
+  }
+  
+  .card {
+    text-align: center;
+    width: 320px;
+    background-color: rgb(206, 204, 204);
+    border-radius: 5px;
+    padding: 22px 22px 11px;
+    position: relative;
+    cursor: pointer;
+    transition: 300ms;
+  }
+  
+  .card:hover {
+    background-color: #d16dc7;
+  }
+  
+  img {
+    border-radius: 50%;
+    width: 160px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .person-name {
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    padding: 2px 0 13px;
+  }
+  
+  .designation {
+    font-size: 18px;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+    height: 200px;
+  }
+
+ p > span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1b00ff;
+    line-height: 2.0;
+ }
+
+.button {
+    padding: 50px 0 12px;
+}
+  
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.5);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+  }
+  
+  .social-icons a:hover {
+    background-color: blue;
+  }
+  
+  .social-icons a i {
+    color: white;
+    font-size: 30px;
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .card {
+      flex-basis: 40%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 890px) {
+    .card {
+      flex-basis: 80%;
+      margin-top: 100px;
+    }
+  }
